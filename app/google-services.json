@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "729926163239",
+    "firebase_url": "https://janji-1ff26.firebaseio.com",
+    "project_id": "janji-1ff26",
+    "storage_bucket": "janji-1ff26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729926163239:android:2dedd9d83fa1cb72",
+        "android_client_info": {
+          "package_name": "com.example.zaki.janji"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729926163239-it1i6clo4kabg1slrl5lev1erk5ujea7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf7U2dKZ9wyb0h9jCADYRM9qmTBZ6NNJE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

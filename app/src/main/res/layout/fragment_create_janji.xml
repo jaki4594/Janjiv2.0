@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Cipta janji anda"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/tajuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Tajuk" />
+
+    <EditText
+        android:id="@+id/masa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="141dp"
+        android:ems="10"
+        android:hint="Pilih masa"
+        android:inputType="time" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="279dp"
+        android:layout_height="253dp"
+        android:layout_below="@+id/masa"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/but_cipta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="Cipta" />
+
+    <EditText
+        android:id="@+id/penjanji_kedua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tajuk"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Penjanji kedua"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>
